@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.hero{
+    background-color: lightblue;
+    min-height: 400px;
+}
+
+.hero h1{
+    margin-top: 50px;
+}
+
+.hero p{
+    margin: 20px 0;
+}
+.navbar {
+    background-color: #111827 !important;
+    padding: 20px;
+}
+
+.btn-primary {
+    background-color: #7c3aed;
+    border-color: #7c3aed;
+    border-radius: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #5b21b6;
+    border-color: #5b21b6;
+}
+
+.card {
+    border-radius: 20px;
+    box-shadow: 0 4px 15px gray;
+    padding: 10px;
+}
+.carousel img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.card {
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 30px 15px !important;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .carousel img {
+        height: 280px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
